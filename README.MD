@@ -36,7 +36,7 @@ Git Branch Name:
 ```
 
 ## Publish In PyPi
-This package has been Publish in [PyPi](https://pypi.org/project/jira-git-branch-namer/0.1.1/)
+This package has been Publish in [PyPi](https://pypi.org/project/jira-git-branch-namer)
 
 ## Contributing
 
