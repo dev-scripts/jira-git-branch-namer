@@ -1,3 +1,16 @@
+Metadata-Version: 2.1
+Name: jira-git-branch-namer-thebhandariprakash
+Version: 0.2.1
+Summary: Python package designed to simplify the process of generating Git branch names based on Jira issue information
+Author-email: Prakash Bhandari <thebhandariprakash@gmail.com>
+Project-URL: Homepage, https://github.com/dev-scripts/jira-git-branch-namer
+Project-URL: Issues, https://github.com/dev-scripts/jira-git-branch-namer/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
 
 # Jira Git branch Namer
 
@@ -13,7 +26,7 @@
 ## Installation
 
 ```bash
-pip install jira-git-branch-namer==0.1.1
+pip install jira-git-branch-namer==0.1
 ```
 
 ## Usage

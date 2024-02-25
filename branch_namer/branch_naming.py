@@ -20,7 +20,6 @@ def jira_to_git_branch(jira_ticket_title, issue_type, jira_ticket_number):
 
     return final_name
 
-
 def get_jira_issue_type(issue_type):
     try:
         issue_type = int(issue_type)
