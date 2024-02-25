@@ -35,6 +35,9 @@ Git Branch Name:
   feature/ABC-123-example-issue-title
 ```
 
+## Publish In PyPi
+This package has been Publish in [PyPi](https://pypi.org/project/jira-git-branch-namer/0.1.1/)
+
 ## Contributing
 
 Contributions are welcome! Feel free to submit bug reports, feature requests, or contribute code on [GitHub](https://github.com/dev-scripts/jira-git-branch-namer).
