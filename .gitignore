@@ -1,0 +1,4 @@
+dist/
+jira_git_branch_namer.egg-info/
+.DS_Store
+.idea
