@@ -1,4 +1,5 @@
 import re
+import pyperclip
 
 # ANSI escape codes for color formatting
 GREEN = '\033[92m'
@@ -45,6 +46,9 @@ def main():
         else:
             colored_branch_name = GREEN + git_branch_name + RESET
             print(f"Git Branch Name:\n{colored_branch_name}")
+            # Copy to clipboard
+            pyperclip.copy(git_branch_name)
+            print("Git Branch Name copied to clipboard.")
 
             break
 

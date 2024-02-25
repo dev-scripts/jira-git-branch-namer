@@ -1,17 +1,30 @@
-[project]
-name = "jira-git-branch-namer"
-version = "0.1.1"
-authors = [
-  { name="Prakash Bhandari", email="thebhandariprakash@gmail.com" },
-]
+[tool.poetry]
+name = "jira_git_branch_namer"
+version = "1.3"
 description = "Python package designed to simplify the process of generating Git branch names based on Jira issue information"
+authors = ["Prakash Bhandari <thebhandariprakash@gmail.com>"]
+license = "MIT"
 readme = "README.md"
-requires-python = ">=3"
+
+[tool.poetry.dependencies]
+python = "^3.6.2 || ^3.7 || ^3.8 || ^3.9"
+prompt_toolkit = "^3.0.20"
+pyperclip = "^1.8.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "setuptools>=42", "wheel"]
+build-backend = "poetry.core.masonry.api"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+
+[tool.poetry.scripts]
+jira-git-branch-namer = 'jira_git_branch_namer.branch_naming:main'
 
 [project.urls]
 Homepage = "https://github.com/dev-scripts/jira-git-branch-namer"

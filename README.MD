@@ -13,13 +13,13 @@
 ## Installation
 
 ```bash
-pip install jira-git-branch-namer==0.1.1
+pip install jira-git-branch-namer
 ```
 
 ## Usage
 
 ```bash
-jira-git-branch-namer
+jira-git-branch-namer 
 ```
 
 Example:
