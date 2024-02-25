@@ -2,3 +2,4 @@ dist/
 jira_git_branch_namer.egg-info/
 .DS_Store
 .idea
+jira_git_branch_namer/__pycache__
